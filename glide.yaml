@@ -1,0 +1,4 @@
+package: github.com/angelospanag/council_tax_scraper
+import:
+- package: github.com/headzoo/surf
+  version: 0.5.6

@@ -1,0 +1,21 @@
+hash: 1bb875bb8ee90663a679610a8e9994d6ea74e4610e4158224b114dfd4371b85f
+updated: 2017-01-28T15:47:24.686668726Z
+imports:
+- name: github.com/andybalholm/cascadia
+  version: 349dd0209470eabd9514242c688c403c0926d266
+- name: github.com/headzoo/surf
+  version: 3b18653e7b32da6295d702f02b556d984785141c
+  subpackages:
+  - agent
+  - browser
+  - errors
+  - jar
+  - util
+- name: github.com/PuerkitoBio/goquery
+  version: 3cb3b8656883c2cc3deb9c643d93ea6e5157e425
+- name: golang.org/x/net
+  version: f2499483f923065a842d38eb4c7f1927e6fc6e6d
+  subpackages:
+  - html
+  - html/atom
+testImports: []
