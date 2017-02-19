@@ -45,6 +45,7 @@ func GetResults(w http.ResponseWriter, req *http.Request) {
 		})
 		results = append(results, result)
 	})
-	//response, _ := json.Marshal(results)
+
+	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(results)
 }
