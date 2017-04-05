@@ -6,7 +6,7 @@ A utility that scrapes Council Tax bands from the official Valuation Office Agen
 
 Assuming you have a working environment with [Git](https://git-scm.com/) and [Go](https://golang.org/), execute the following command:
 
-```go get github.com/angelospanag/bazaarvoice-go-sdk```
+```go get github.com/angelospanag/council_tax_scraper```
 
 ## Install vendor dependencies
 
